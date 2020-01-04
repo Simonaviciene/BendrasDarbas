@@ -10,6 +10,18 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            double zrp = 0;
+            double zrt = 0;
+            double izambine = 0;
+
+            Console.WriteLine("*************************************************");
+            Console.WriteLine($"Kintamasis 1: {zrp}");
+            Console.WriteLine($"Kintamasis 2: {zrt}");
+            Console.WriteLine($"Kintamasis 3: {izambine}");
+            Console.WriteLine("Kintamuju suma yra: {0}", zrp + zrt + izambine);
+            Console.WriteLine("Kintamuju vidurkis yra: {0}", (zrp+zrt+izambine) / 3);
+            Console.WriteLine("*************************************************");
+            Console.ReadLine();
         }
     }
 }
