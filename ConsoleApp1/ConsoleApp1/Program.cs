@@ -15,6 +15,8 @@ namespace ConsoleApp1
             double izambine = 0;
             //Pirma uzduotis
             zrp = 4 * Math.PI * Math.Pow(6371, 2);
+
+            //Antra uzduotis
             zrt = (4 * Math.PI * Math.Pow(6371, 3)) / 3;
             
 
